@@ -6,10 +6,10 @@ import kotlin.math.sign
 fun main() {
 	val t = readln().toInt()
 	for (case in 1..t)
-		println("Case #$case: ${triangles(case)}")
+		println("Case #$case: ${triangles()}")
 }
 
-private fun triangles(case: Int): String {
+private fun triangles(): String {
 	val n = readln().toInt()
 	val p = mutableListOf<List<Int>>()
 	for (i in 0 until n)
