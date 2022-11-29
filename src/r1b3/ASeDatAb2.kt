@@ -19,26 +19,3 @@ fun main() {
 		}
 	}
 }
-
-// {0=1, 1=8, 2=28, 3=56, 4=70, 5=56, 6=28, 7=8, 8=1}
-//val bc = mutableMapOf<Int, Int>()
-//for (b in 0 until 256) {
-//	val key = b.countOneBits()
-//	bc[key] = bc.getOrDefault(key, 0) + 1
-//}
-//println(bc)
-//return
-
-//class ASeDatAb {
-//}
-
-//	val num = listOf(
-//		listOf('1', '0', '0', '0', '0', '0', '0', '0'),
-//		listOf('1', '1', '0', '0', '0', '0', '0', '0'),
-//		listOf('1', '1', '1', '0', '0', '0', '0', '0'),
-//		listOf('1', '1', '1', '1', '0', '0', '0', '0'),
-//		listOf('1', '1', '1', '1', '1', '0', '0', '0'),
-//		listOf('1', '1', '1', '1', '1', '1', '1', '0'),
-//		listOf('1', '1', '1', '1', '1', '1', '1', '0'),
-//	)
-//num[n - 1].shuffled().joinToString("")

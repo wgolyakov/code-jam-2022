@@ -45,13 +45,3 @@ fun main() {
 		println("Case #$case: $result")
 	}
 }
-
-//class DuckDuckGeese {
-//}
-
-//val r = mutableMapOf<Int, Int>()
-//r.merge(p[g] - 1, 1, Int::plus)
-//for ((i, v) in r) {
-//	if (v != 0 && (v < a[i] || v > b[i])) {
-//r.compute(p[s1] - 1) { _, v -> if (v == 1) null else v!! - 1 }
-//r.merge(p[s2] - 1, 1, Int::plus)
